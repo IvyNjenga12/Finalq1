@@ -1,9 +1,12 @@
-/* styles.css */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
+    background-image: url('images/background.jpg');
+    background-size: cover;
+    background-position: center;
 }
 
 header {
@@ -38,6 +41,11 @@ section {
     background-color: #f0f0f0;
 }
 
+.faculty-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
 .faculty-card h2 {
     margin-top: 0;
 }
@@ -61,7 +69,7 @@ section {
 }
 
 .research-interests li {
-    background-color: #007BFF;
+    background-color: #800080; /* Purple color for department buttons */
     color: #fff;
     display: inline-block;
     padding: 0.5rem;
